@@ -36,7 +36,7 @@ enableDefault = true
     enableThemeToggle = true
 
 [params.portrait]
-    path     = "/about_me/resume/images/profile_picture"
+    path     = "/resume/images/profile_picture.png"
     alt      = "This is me."
     maxWidth = "205px"
 
