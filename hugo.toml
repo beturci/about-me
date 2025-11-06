@@ -97,7 +97,7 @@ enableDefault = true
     [[menu.main]]
         identifier = "resume"
         name       = "resume"
-        url        = "/resume/.pdf"
+        url        = "/resume/resume-BernardoTurci25.pdf"
 
     [[menu.main]]
         identifier = "irl"
