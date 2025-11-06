@@ -35,8 +35,11 @@ enableDefault = true
 
     enableThemeToggle = true
 
+    # Custom CSS
+    customCSS = ["/about-me/css/custom.css"]
+
 [params.portrait]
-    path     = "/resume/images/profile_picture.png"
+    path     = "/about-me/resume/images/profile_picture.png"
     alt      = "This is me."
     maxWidth = "205px"
 
@@ -49,6 +52,7 @@ enableDefault = true
     logoMark     = ">"
     logoText     = "$ cd /home/"
     logoHomeLink = "/"
+    logoCursorColor = "#d3d3d3"
 
 # Social icons
 
