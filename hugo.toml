@@ -1,0 +1,113 @@
+baseURL = 'https://beturci.github.io/about-me/'
+languageCode = 'en-us'
+title = 'Hello! This is me.'
+theme='hello-friend-ng'
+
+[markup.goldmark.renderHooks.image]
+enableDefault = true
+
+[markup.goldmark.renderHooks.link]
+enableDefault = true
+
+[params]
+    Author = "Bernardo Turci Carvalho"
+    dateform        = "Jan 2, 2006"
+    dateformShort   = "Jan 2"
+    dateformNum     = "2006-01-02"
+    dateformNumTime = "2006-01-02 15:04"
+
+    # Subtitle for home
+    homeSubtitle = "Business Analyst | Tech, Data & a Bit of Chaos | Snowboarder, Tabletop Strategist, Learner"
+
+    # Set disableReadOtherPosts to true in order to hide the links to other posts.
+    disableReadOtherPosts = false
+
+    # Enable sharing buttons, if you like
+    enableSharingButtons = true
+
+    # Show a global language switcher in the navigation bar
+    enableGlobalLanguageMenu = false
+
+    # Metadata mostly used in document's head
+    description = "about_me"
+    keywords = "homepage"
+    images = [""]
+
+    enableThemeToggle = true
+
+[params.portrait]
+    path     = ""
+    alt      = ""
+    maxWidth = "205px"
+
+[params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+[params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+
+# Social icons
+
+[[params.social]]
+    name = "github"
+    url  = "https://github.com/vitor-mafra"
+
+[[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/vitor-mafra/"
+
+[[params.social]]
+    name = "email"
+    url  = "mailto:bear.turci@gmail.com"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+    [languages.en]
+        title = "Hello! This is me."
+        keywords = ""
+        readOtherPosts = "Read other posts"
+
+    [languages.en.params]
+        #subtitle  = ""
+
+    [languages.en.params.logo]
+        logoText = "about_me"
+        logoHomeLink = "/about_me/"
+        # or
+        #
+        # path = ""
+        # alt = ""
+
+    # And you can even create generic menu
+    #[[menu.main]]
+    #    identifier = "blog"
+    #    name       = "Blog"
+    #    url        = "/posts"
+
+    # And you can even create generic menu
+    [[menu.main]]
+        identifier = "bot"
+        name       = "bot_do_bandejao"
+        url        = "/on_media/#bot-do-bandejao" 
+
+    [[menu.main]]
+        identifier = "resume"
+        name       = "resume"
+        url        = "/resume/.pdf"
+
+    [[menu.main]]
+        identifier = "irl"
+        name       = "irl"
+        url        = '/irl/'
+
+
+    [markup.goldmark.renderer]
+        unsafe = true
