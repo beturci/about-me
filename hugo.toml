@@ -36,8 +36,8 @@ enableDefault = true
     enableThemeToggle = true
 
 [params.portrait]
-    path     = ""
-    alt      = ""
+    path     = "/about_me/resume/images/profile_picture"
+    alt      = "This is me."
     maxWidth = "205px"
 
 [params.favicon.color]
@@ -54,11 +54,11 @@ enableDefault = true
 
 [[params.social]]
     name = "github"
-    url  = "https://github.com/vitor-mafra"
+    url  = "https://github.com/beturci"
 
 [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/in/vitor-mafra/"
+    url  = "https://www.linkedin.com/in/bernardo-turci-09675b133"
 
 [[params.social]]
     name = "email"
