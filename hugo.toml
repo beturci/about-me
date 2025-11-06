@@ -59,10 +59,12 @@ enableDefault = true
 [[params.social]]
     name = "github"
     url  = "https://github.com/beturci"
+    nonewpage = 0
 
 [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/bernardo-turci-09675b133"
+    nonewpage = 0
 
 [[params.social]]
     name = "email"
@@ -84,7 +86,7 @@ enableDefault = true
 
     [languages.en.params.logo]
         logoText = "about_me"
-        logoHomeLink = "/about_me/"
+        logoHomeLink = "/about-me/"
         # or
         #
         # path = ""
