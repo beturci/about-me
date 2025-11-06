@@ -93,10 +93,6 @@ enableDefault = true
     #    url        = "/posts"
 
     # And you can even create generic menu
-    [[menu.main]]
-        identifier = "bot"
-        name       = "bot_do_bandejao"
-        url        = "/on_media/#bot-do-bandejao" 
 
     [[menu.main]]
         identifier = "resume"
