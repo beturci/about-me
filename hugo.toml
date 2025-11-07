@@ -103,7 +103,9 @@ enableDefault = true
     [[menu.main]]
         identifier = "resume"
         name       = "resume"
-        url        = "/resume/resume-BernardoTurci25.pdf"
+        url        = "/about-me/resume/resume-BernardoTurci25.pdf"
+        weight     = 1
+        params     = { target = "_blank" }
 
     [[menu.main]]
         identifier = "irl"
