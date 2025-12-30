@@ -110,11 +110,7 @@ enableDefault = true
         name       = "academic"
         url        = "/academic/tcc.pdf"
 
-    [[menu.main]]
-        identifier = "irl"
-        name       = "irl"
-        url        = '/irl/'
-
+    # `irl` menu removed here; it'll be provided by the page front matter at content/irl/_index.md
 
     [markup.goldmark.renderer]
         unsafe = true
