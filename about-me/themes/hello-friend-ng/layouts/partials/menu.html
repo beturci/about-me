@@ -2,7 +2,12 @@
     <ul class="menu__inner">
         {{- $currentPage := . -}}
         {{ range sort .Site.Menus.main ".Identifier" -}}
-            <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+            {{ $url := .URL | relLangURL }}
+            {{ $isPDF := in (lower $url) ".pdf" }}
+            {{ $targetBlank := or $isPDF (eq .Params.target "_blank") }}
+            <li>
+                <a href="{{ $url }}"{{ if $targetBlank }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Name }}</a>
+            </li>
         {{- end }}
 
         {{- if .Site.Params.EnableGlobalLanguageMenu }}
