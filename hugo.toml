@@ -103,12 +103,12 @@ enableDefault = true
     [[menu.main]]
         identifier = "resume"
         name       = "resume"
-        url        = "/resume/resume-BernardoTurci25.pdf"
+        url        = "https://beturci.github.io/about-me/resume/resume-BernardoTurci25.pdf"
 
     [[menu.main]]
         identifier = "academic"
         name       = "academic"
-        url        = "/academic/tcc.pdf"
+        url        = "https://beturci.github.io/about-me/academic/tcc.pdf"
 
     # `irl` menu removed here; it'll be provided by the page front matter at content/irl/_index.md
 
